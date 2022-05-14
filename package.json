@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "start-log-to-file": "nodemon index.js  > app.log 2>&1"
   },
   "author": "Ilia Reshetov",
   "license": "MIT",
